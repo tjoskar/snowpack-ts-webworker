@@ -7,8 +7,12 @@
     "lint": "prettier --check 'src/**/*.ts'"
   },
   "dependencies": {
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/lodash.chunk": "^4.2.6",
+    "canvas-confetti": "^1.2.0",
     "lit-element": "^2.3.1",
-    "lit-html": "^1.2.1"
+    "lit-html": "^1.2.1",
+    "lodash.chunk": "^4.2.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-lit-element": "^0.8.0",

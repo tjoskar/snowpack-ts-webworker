@@ -3,6 +3,7 @@
   "include": ["src", "types"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+    "lib": ["webworker", "DOM", "ESNext", "scripthost"],
     // LitElement makes use of experimental decorator syntax.
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -11,7 +12,8 @@
     // Don't change these unless you know what you're doing.
     // See: https://github.com/microsoft/TypeScript/issues/25430
     "baseUrl": "./",
-    "paths": { "*": ["web_modules/.types/*"] }
+    "paths": { "*": ["web_modules/.types/*"] },
+    "allowSyntheticDefaultImports": true
     // Feel free to add/edit new config options below:
     // ...
   }
